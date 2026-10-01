@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "تيشيرت قطن أساسي",
+    "price": 350,
+    "category": "تيشيرت",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/9985771/pexels-photo-9985771.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "تيشيرت أدايدس",
+    "price": 900,
+    "category": "تيشيرت",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أبيض",
+    "image": "https://images.pexels.com/photos/18439566/pexels-photo-18439566.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "تيشيرت بولو",
+    "price": 480,
+    "category": "تيشيرت",
+    "sizes": ["M", "L", "XL"],
+    "color": "كحلي",
+    "image": "https://images.pexels.com/photos/17984123/pexels-photo-17984123.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "تيشيرت أوفرسايز",
+    "price": 400,
+    "category": "تيشيرت",
+    "sizes": ["S", "M", "L"],
+    "color": "رمادي",
+    "image": "https://images.pexels.com/photos/9558761/pexels-photo-9558761.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "تيشيرت مخطط",
+    "price": 420,
+    "category": "تيشيرت",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أبيض/أسود",
+    "image": "https://images.pexels.com/photos/17086273/pexels-photo-17086273.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "تيشيرت رياضي",
+    "price": 380,
+    "category": "تيشيرت",
+    "sizes": ["M", "L", "XL"],
+    "color": "أزرق",
+    "image": "https://images.pexels.com/photos/24260728/pexels-photo-24260728.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "تيشيرت بطبعة",
+    "price": 450,
+    "category": "تيشيرت",
+    "sizes": ["S", "M", "L"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/15943977/pexels-photo-15943977.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "بنطلون كلاسيك",
+    "price": 580,
+    "category": "بنطلون",
+    "sizes": ["M", "L", "XL"],
+    "color": "كحلي",
+    "image": "https://images.pexels.com/photos/37797936/pexels-photo-37797936.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "بنطلون جينز",
+    "price": 650,
+    "category": "بنطلون",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أزرق غامق",
+    "image": "https://images.pexels.com/photos/12036560/pexels-photo-12036560.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "بنطلون كارجو",
+    "price": 720,
+    "category": "بنطلون",
+    "sizes": ["M", "L", "XL"],
+    "color": "بيج",
+    "image": "https://images.pexels.com/photos/31553027/pexels-photo-31553027.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "بنطلون رياضي",
+    "price": 490,
+    "category": "بنطلون",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/19207584/pexels-photo-19207584.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "بنطلون قماش رسمي",
+    "price": 680,
+    "category": "بنطلون",
+    "sizes": ["M", "L", "XL"],
+    "color": "رمادي غامق",
+    "image": "https://images.pexels.com/photos/9464625/pexels-photo-9464625.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "بنطلون شينو",
+    "price": 610,
+    "category": "بنطلون",
+    "sizes": ["S", "M", "L"],
+    "color": "أخضر زيتي",
+    "image": "https://images.pexels.com/photos/7621192/pexels-photo-7621192.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "جاكيت جلد",
+    "price": 1250,
+    "category": "جاكيت",
+    "sizes": ["M", "L"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/6485702/pexels-photo-6485702.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "جاكيت دينم",
+    "price": 950,
+    "category": "جاكيت",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أزرق",
+    "image": "https://images.pexels.com/photos/15420244/pexels-photo-15420244.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "جاكيت شتوي",
+    "price": 1400,
+    "category": "جاكيت",
+    "sizes": ["M", "L", "XL"],
+    "color": "كحلي",
+    "image": "https://images.pexels.com/photos/19977000/pexels-photo-19977000.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "جاكيت بومبر",
+    "price": 1100,
+    "category": "جاكيت",
+    "sizes": ["S", "M", "L"],
+    "color": "أخضر",
+    "image": "https://images.pexels.com/photos/30080154/pexels-photo-30080154.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "جاكيت رياضي",
+    "price": 850,
+    "category": "جاكيت",
+    "sizes": ["M", "L", "XL"],
+    "color": "رمادي",
+    "image": "https://images.pexels.com/photos/6897811/pexels-photo-6897811.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "جاكيت هودي",
+    "price": 780,
+    "category": "جاكيت",
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/18704793/pexels-photo-18704793.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "جاكيت كلاسيك رسمي",
+    "price": 1600,
+    "category": "جاكيت",
+    "sizes": ["M", "L", "XL"],
+    "color": "أسود",
+    "image": "https://images.pexels.com/photos/38550619/pexels-photo-38550619.jpeg"
+  }
+]

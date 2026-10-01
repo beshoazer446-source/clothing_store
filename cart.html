@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style House | السلة</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <span class="logo">STYLE HOUSE</span>
+      <nav class="main-nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+      </nav>
+      <a href="cart.html" class="cart-link active">🛒 السلة</a>
+    </header>
+    <div class="cart-layout">
+      <h2 class="serif">سلة المشتريات</h2>
+
+      <div id="cart-items">
+        <!-- عناصر السلة هتتحط هنا من الـ JS -->
+      </div>
+
+      <div class="cart-total">
+        <span>الإجمالي</span>
+        <span id="cart-total-amount">0 ج.م</span>
+      </div>
+    </div>
+    <div class="customer-form" id="customer-section">
+      <h3>بيانات التواصل</h3>
+      <input type="text" id="customer-name" placeholder="الاسم بالكامل" />
+      <input type="tel" id="customer-phone" placeholder="رقم تليفون" />
+      <input type="text" id="customer-address" placeholder="عنوان بالتفصيل" />
+      <input type="text" id="customer-details" placeholder="اي ملاحظات" />
+      <h3 class="payment-title">طريقة الدفع</h3>
+      <label class="payment-option">
+        <input
+          type="radio"
+          name="payment-method"
+          value="كاش عند الاستلام"
+          checked
+        />
+        كاش عند الاستلام
+      </label>
+      <label class="payment-option">
+        <input
+          type="radio"
+          name="payment-method"
+          value="فودافون كاش / إنستاباي"
+        />
+        فودافون كاش / إنستاباي
+      </label>
+      <button class="btn btn-whatsapp" id="send-order-btn" style="width: 100%">
+        📱 إرسال الطلب على واتساب
+      </button>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

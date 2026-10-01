@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style House | المنتجات</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <header class="site-header">
+      <span class="logo">STYLE HOUSE</span>
+      <nav class="main-nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html" class="active">المنتجات</a>
+      </nav>
+      <a href="cart.html" class="cart-link">🛒 السلة</a>
+    </header>
+    <div class="products-layout">
+      <aside class="filters">
+        <h3>الفئه</h3>
+        <label for=""
+          ><input
+            type="checkbox"
+            class="category-filter"
+            value="تيشيرت"
+            checked
+          />تيشرتات</label
+        >
+        <label for=""
+          ><input
+            type="checkbox"
+            class="category-filter"
+            value="بنطلون"
+            checked
+          />بنطلونات</label
+        >
+        <label for=""
+          ><input
+            type="checkbox"
+            class="category-filter"
+            value="جاكيت"
+            checked
+          />جواكت</label
+        >
+        <h3 style="margin-top: 20px">السعر</h3>
+        <div class="price-inputs">
+          <input type="number" id="min-price" placeholder="من" />
+          <input type="number" id="max-price" placeholder="الي" />
+        </div>
+      </aside>
+
+      <main class="products-grid" id="products-grid">
+        <!-- المنتجات هتتحط هنا من الـ JS -->
+      </main>
+    </div>
+    <footer class="site-footer">© 2026 Style House — جميع الحقوق محفوظة</footer>
+
+    <script src="js/product.js"></script>
+  </body>
+</html>
